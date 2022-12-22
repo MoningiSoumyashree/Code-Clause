@@ -1,0 +1,102 @@
+/* Whole container */
+#container {
+    width: 550px;
+    height: 585px;
+    margin: auto;
+    border: 3px solid #3b3a36;
+    border-radius: 7px;
+    border-width: 5px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    background: #e9ece5;
+}
+
+/* Header */
+#header {
+    background-color: #3b3a36;
+    border-radius: 7px;
+    color: #c0dfd9;
+    text-align: center;
+    width: 420px;
+    margin: auto;
+    user-select: none;
+}
+
+#header h1 {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Controllers and Stats */
+.gameControllerAndStats {
+    margin: 3px;
+    display: block;
+    font-weight: bold;
+    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+    user-select: none;
+}
+
+.gameControllerAndStats #scoreData {
+    float: left;
+    font-size: 18px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.gameControllerAndStats #result {
+    text-align: center;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-size: 22px;
+}
+
+.gameControllerAndStats #resetButton {
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.gameControllerAndStats #resetButton, #scoreData {
+    width: 100px;
+    background: #9fa8a3;
+    border: 2px solid #3b3a36;
+    border-radius: 7px;
+}
+
+.gameControllerAndStats #scoreData #score {
+    color: #c0dfd9;
+}
+
+/* Images */
+#gameBoardHalloweenImages {
+    clear: both;
+    z-index: 1;
+}
+
+#gameBoardHalloweenImages div {
+    float: left;
+    z-index: 2;
+    width: 100px;
+    height: 100px;
+    margin: 3px;
+    background: #b3c2bf;
+    border: 2px solid #3b3a36;
+    border-radius: 7px;
+}
+
+#gameBoardHalloweenImages div img {
+    display: none;
+    z-index: 3;
+    border-radius: 7px;
+}
+
+/* Footer */
+#footer {
+    clear: left;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 1px;
+    font-size: 12px;
+    color: #3b3a36;
+}
